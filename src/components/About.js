@@ -1,6 +1,7 @@
 import React from 'react'
 import profile from '../images/profile.jpg'
 
+
 export default function About() {
 
   return <section>
