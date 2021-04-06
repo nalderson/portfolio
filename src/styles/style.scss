@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'britanica';
-  src: local('britanica-black'), url('../src/fonts/britanica-black.woff'), format('woff!static');
+  src: local('britanica-black'), url('/src/fonts/britanica-black.woff') format('woff');
 }
 
 body {
