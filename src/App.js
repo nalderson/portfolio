@@ -6,9 +6,10 @@ import About from './components/About'
 import Web from './components/Web'
 import Ads from './components/Ads'
 import Navbar from './components/Navbar'
-import './fonts/Britanica-Bold.ttf'
+
 
 import './styles/style.scss'
+
 
 const App = () => (
   <BrowserRouter>
