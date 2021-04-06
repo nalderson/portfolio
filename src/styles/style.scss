@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'britanica';
+  src: local('britanica-black') url(../fonts/britanica-black.woff) format(woff);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #CAFFD0;
+  font-family: britanica;
+}
+
+// Homepage 
+.homepage {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.name-title-email {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.nat {
+  line-height: 0.75;
+  font-size: 200px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.title-email {
+  font-size: 120px;
+  line-height: 0.85;
+  margin-top: 0;
+}
+
+.footer {
+display: flex;
+flex-direction: row;
+margin-bottom: 10px;
+}
+
+.web-design-dev {
+font-size: 30px;
+margin-right: 5px;
+}
+
+.peace {
+  width: 25px;
+  height: 37px;
+  margin-top: 29px;
+  margin-left: 5px;
+}
+
+// Nav 
+.nav-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  position: fixed;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+  font-family: britanica;
+  font-size: 70px;
+}
+
+a:visited { 
+  text-decoration: none; 
+  color: black;
+ }
+
+.nav-buttons {
+  height: 100vh;
+  width: 120px;
+  font-size: 30px;
+  color :black;
+  border: none;
+  background-color: #CAFFD0;
+  text-align: justify;
+}
+
+#about-nav-button {
+color: black;
+border-left: black 3px solid;
+border-right: black 3px solid;
+}
+
+#ad-nav-button {
+  border-left: black 3px solid;
+  color: black;
+}
+
+.nav-text{
+  transform: rotate(270deg);
+  width: 100%;
+  line-height: 1;
+  margin: 0 0 0 0;
+  white-space: nowrap;
+  text-align: left;
+}
+
+// About 
+.about-section {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin-left: 30px;
+  margin-top: 0;
+}
+
+.about-me {
+  width: 60vw;
+}
+
+.about-me-info {
+  font-size: 80px;
+  line-height: 0.90;
+  margin-top: 25px;
+}
+
+.profile-pic {
+  width: 28vw;
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 180px;
+  z-index: -2;
+}
+
+.about-email {
+  position: fixed;
+  bottom: 30px;
+  font-size: 80px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  position: fixed;
+  bottom: 0px;
+}
+
+.i {
+  width: 50px;
+}
+
+// Projects
+.project-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+}
+
+.back-button {
+  border: none;
+  font-size: 120px;
+  margin-left: 230px;
+  background: none;
+}
+
+.projects {
+  font-size: 120px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.individual-project {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  font-size: 80px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+#city-title {
+  margin-bottom: 4px;
+}
+
+.project-img {
+  width: 60vw;
+}
+
+.project-description {
+  width: 60vw;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.tech-used {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.tech-list {
+  display: flex;
+  flex-direction: row;
+  margin-top: -10px;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+}
+
+#project-web-link {
+  font-size: 25px;
+}
+
+#project-git-link {
+  font-size: 25px;
+}
+
+#pixel-title {
+  margin-bottom: 4px;
+}
+
+#samsung-title {
+  margin-bottom: 4px;
+}
