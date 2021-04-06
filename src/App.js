@@ -6,7 +6,7 @@ import About from './components/About'
 import Web from './components/Web'
 import Ads from './components/Ads'
 import Navbar from './components/Navbar'
-import './fonts/Britanica-Black-Black.ttf'
+import './fonts/Britanica-Black-Black.eot'
 
 import './styles/style.scss'
 
