@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'britanica';
-  src: local('britanica-black') url(../fonts/britanica-black.woff) format('woff');
+  src: local('britanica-black'), url(../fonts/britanica-black.woff), format('woff');
 }
 
 body {
   width: 100vw;
   height: 100vh;
   background-color: #CAFFD0;
-  font-family: britanica;
+  font-family: 'britanica';
 }
 
 // Homepage 
