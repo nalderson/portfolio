@@ -9,7 +9,6 @@ export default function Navbar() {
   //   })
   // }
 
-
   return <div className="nav-div">
     <button className="nav-buttons" id="about-nav-button"><Link to={'/about-me/'}><p className="nav-text">ABOUT ME</p></Link></button>
     <button className="nav-buttons" id="web-nav-button"><Link to={'/web-development/'}><p className="nav-text">WEB DEVELOPMENT</p></Link></button>

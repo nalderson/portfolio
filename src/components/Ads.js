@@ -1,7 +1,11 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
-
-
+import jl from '../images/EJ.png'
+import ff from '../images/FamousF.png'
+import amstel from '../images/Amstel.png'
+import halifax from '../images/Halifax.jpg'
+import sam from '../images/Samsung.png'
+import google from '../images/Pixel.png'
 
 export default function Ads() {
 
@@ -18,7 +22,7 @@ export default function Ads() {
       </div>
       <div className="individual-project">
         <h2 className="project-title">John Lewis Christmas</h2>
-        <img className="project-img" src="../images/EJ.png" />
+        <img className="project-img" src={jl} />
         <p className="project-description">Was the Assistant Producer on the main TVC and Producer for the x8 Supplier funded TVC ads, Behind the Scenes, In Store installation and all Social, Digital, Print and Radio assets.
         </p>
         <h4 className="tech-used">MEDIA</h4>
@@ -32,7 +36,7 @@ export default function Ads() {
 
       <div className="individual-project">
         <h2 className="project-title">Great Western Railway</h2>
-        <img className="project-img" src="../images/FamousF.png" />
+        <img className="project-img" src={ff} />
         <p className="project-description">Produced the main TVC and ITV Weather Idents for Great Western Railway’s new train launch.
         </p>
         <h4 className="tech-used">MEDIA</h4>
@@ -46,7 +50,7 @@ export default function Ads() {
 
       <div className="individual-project">
         <h2 className="project-title">Amstel</h2>
-        <img className="project-img" src="../images/Amstel.png" />
+        <img className="project-img" src={amstel} />
         <p className="project-description">Was the Assistant Producer on the main TVC and Producer for all social and digital ads.
         </p>
         <h4 className="tech-used">MEDIA</h4>
@@ -60,7 +64,7 @@ export default function Ads() {
 
       <div className="individual-project">
         <h2 className="project-title">Halifax</h2>
-        <img className="project-img" src="../images/Halifax.jpg" />
+        <img className="project-img" src={halifax} />
         <p className="project-description">Led a 9 month project implementing Dynamic Banners to streamline Halifax’s Digital Display advertising. Off the back of this project, I was sent to the New York office to manage a similar piece for our Samsung client (please see below).
         </p>
         <h4 className="tech-used">MEDIA</h4>
@@ -71,7 +75,7 @@ export default function Ads() {
 
       <div className="individual-project">
         <h2 className="project-title" id="samsung-title">Samsung</h2>
-        <img className="project-img" src="../images/Samsung.png" />
+        <img className="project-img" src={sam} />
         <p className="project-description">Worked on the Samsung account in the adam&eve New York office streamlining their OLA, along with producing Social, Radio and Print ads.
         </p>
         <h4 className="tech-used">MEDIA</h4>
@@ -82,7 +86,7 @@ export default function Ads() {
 
       <div className="individual-project">
         <h2 className="project-title" id="pixel-title">Google Pixel</h2>
-        <img className="project-img" src="../images/Pixel.png" />
+        <img className="project-img" src={google} />
         <p className="project-description">Was the Assistant Digital Producer on the Google Pixel phone launch, working with Droga5 to streamline all assets across Europe.
         </p>
         <h4 className="tech-used">MEDIA</h4>
