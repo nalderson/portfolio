@@ -1,22 +1,16 @@
 import React from 'react'
-import { useHistory } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import picster from '../images/picster.png'
 import city from '../images/city1.png'
 import film from '../images/film.png'
 import snake from '../images/snake.png'
 
 export default function Web() {
-
-  const history = useHistory()
-  async function goBack() {
-    history.go(-1)
-  }
-
   return <section>
     <div className="project-section">
       <div className="header">
         <h1 className="projects">PROJECTS</h1>
-        <button className="back-button" id="web-back"onClick={goBack}>✕</button>
+        <button className="back-button" id="web-back"><Link to={'/'}><h1>✕</h1></Link></button>
       </div>
       <div className="individual-project">
         <h2 className="project-title">Picster</h2>

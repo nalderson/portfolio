@@ -54,27 +54,28 @@ margin-right: 5px;
   margin-left: 5px;
 }
 
-// Nav 
-.nav-div {
+// Nav - mobile first:
+
+.navbar {
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100%;
-  justify-content: flex-end;
+  flex-flow: row wrap;
+  width: 100vw;
+  height: 100vh;
   position: fixed;
 }
 
-// @media only screen and (max-width: 600px) {
-//   .nav-div {
-
-//   }
-// }
+.nav-div {
+  display: flex;
+  flex-flow: column nowrap;
+  width: inherit;
+  justify-content: flex-end;
+}
 
 a:link {
   text-decoration: none;
   color: black;
   font-family: britanica;
-  font-size: 70px;
+  font-size: 20px;
 }
 
 a:visited { 
@@ -83,50 +84,71 @@ a:visited {
  }
 
 .nav-buttons {
-  height: 100vh;
-  width: 120px;
   font-size: 30px;
   color :black;
   border: none;
   background-color: #CAFFD0;
-  text-align: center;
+  margin-left: -10px;
 }
 
 #about-nav-button {
-color: black;
-border-left: black 3px solid;
-border-right: black 3px solid;
-padding-top: 140px;
-padding-right:16px;
+border-top: black solid 2px;
+border-bottom: black solid 2px;
+}
+
+#ad-nav-button {
+  border-top: black solid 2px;
+  border-bottom: black solid 2px;
+}
+
+// DESKTOP:
+@media only screen and (min-width: 600px) {
+  .navbar { 
+    display: flex;
+    flex-flow: column wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav-div {
+  display: flex;
+  flex-direction: row;
+  width: inherit;
+  height: inherit;
+}
+
+.nav-buttons {
+  width: 180px;
+  border: none;
+  margin-top: -10px;
+  height: 101%;
+}
+
+#about-nav-button {
+  border-left: black 3px solid;
+  border-bottom: none;
 }
 
 #web-nav-button {
-  padding-right:16px;
+  border-left: black 3px solid;
 }
 
 #ad-nav-button {
   border-left: black 3px solid;
-  color: black;
-  padding-top: 260px;
-  padding-right:16px;
+  border-bottom: none;
 }
 
-#web-nav-button {
-  padding-top: 420px;
+a:link {
+  width: 100%;
+  height: 100%;
+  // font-size: 80px;
+  // padding-left: 100px;
 }
 
 .nav-text{
   transform: rotate(270deg);
-  width: 100%;
-  margin: 0 0 0 0;
-  white-space: nowrap;
-  text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-  .nav-text {
-    transform: none;
-  }
 }
 
 // About 
