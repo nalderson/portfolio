@@ -25,13 +25,24 @@ module.exports = webpackEnv => {
         { test: /\.css$/, use: ['style-loader', 'css-loader'] },
         { test: /\.s(a|c)ss$/, use: ['style-loader', 'css-loader', 'sass-loader'] },
         { test: /\.(png|jpe?g|gif)$/i, use: 'file-loader' },
-        // {
-        //   test: /\.(woff|woff2|ttf|eot)$/,
-        //   use: 'file-loader?name=fonts/[name].[ext]!static'
-        // }
         {
-          test: /\.(woff2|woff|eot|ttf|otf)$/,
-          use: 'file-loader'
+          test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/, use: [
+            {
+              loader: 'file-loader',
+              options: {
+                name: '[name].[ext]',
+                outputPath: 'fonts/'
+              }
+            }
+          ]
+        },
+        {
+          test: /\.(png|jpe?g|gif)$/i,
+          use: [
+            {
+              loader: 'file-loader'
+            }
+          ]
         }
       ]
     },

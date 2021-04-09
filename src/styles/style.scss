@@ -1,7 +1,8 @@
 @font-face {
   font-family: 'Britanica';
-  src: url('https://natasha-alderson.com/src/fonts/Britanica-Bold.ttf') format('ttf'),
-  url('https://natasha-alderson.com/src/fonts/Britanica-Bold.ttf') format('ttf');
+  font-style: normal;
+  font-weight: normal;
+  src: local('Britanica-Bold'), url('../fonts/Britanica-Bold.ttf') format('ttf');
 }
 
 body {
