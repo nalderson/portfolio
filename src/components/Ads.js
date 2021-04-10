@@ -1,7 +1,5 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
-import jl from '../images/EJ.png'
-import ff from '../images/FamousF.png'
 import amstel from '../images/Amstel.png'
 import halifax from '../images/Halifax.jpg'
 import sam from '../images/Samsung.png'
@@ -22,7 +20,7 @@ export default function Ads() {
       </div>
       <div className="individual-project">
         <h2 className="project-title">John Lewis Christmas</h2>
-        <img className="project-img" src={`/${jl}`}/>
+        <img className="project-img" src="../images/EJ.png"/>
         <p className="project-description">Was the Assistant Producer on the main TVC and Producer for the x8 Supplier funded TVC ads, Behind the Scenes, In Store installation and all Social, Digital, Print and Radio assets.
         </p>
         <h4 className="tech-used">MEDIA</h4>
@@ -36,7 +34,7 @@ export default function Ads() {
 
       <div className="individual-project">
         <h2 className="project-title">Great Western Railway</h2>
-        <img className="project-img" src={`/${ff}`}/>
+        <img className="project-img" src="../images/FamousF.png"/>
         <p className="project-description">Produced the main TVC and ITV Weather Idents for Great Western Railway’s new train launch.
         </p>
         <h4 className="tech-used">MEDIA</h4>

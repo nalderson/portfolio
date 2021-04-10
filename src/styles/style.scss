@@ -1,15 +1,13 @@
-@font-face {
-  font-family: 'Britanica';
-  font-style: normal;
-  font-weight: normal;
-  src: url('https://natasha-alderson.com/fonts/Britanica-Bold.ttf') format('ttf');
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400&display=swap');
 
 body {
   width: 100vw;
   height: 100vh;
   background-color: #CAFFD0;
-  font-family: 'Britanica';
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  ;
 }
 
 // Homepage 
@@ -76,8 +74,6 @@ margin-right: 5px;
 a:link {
   text-decoration: none;
   color: black;
-  font-family: britanica;
-  font-size: 20px;
 }
 
 a:visited { 
@@ -86,11 +82,12 @@ a:visited {
  }
 
 .nav-buttons {
-  font-size: 30px;
   color :black;
   border: none;
   background-color: #CAFFD0;
   margin-left: -10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #about-nav-button {
@@ -101,6 +98,11 @@ border-bottom: black solid 2px;
 #ad-nav-button {
   border-top: black solid 2px;
   border-bottom: black solid 2px;
+}
+
+.nav-text {
+  font-size: 40px;
+  margin: 0;
 }
 
 // DESKTOP:
@@ -149,6 +151,7 @@ a:link {
 
 .nav-text{
   transform: rotate(270deg);
+  margin: 0;
 }
 
 }
