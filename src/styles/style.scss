@@ -1,13 +1,15 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400&display=swap');
+@font-face {
+  font-family: 'Britanica-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Britanica-Bold'), url('../fonts/Britanica-Bold.ttf') format('tff');
+}
 
 body {
   width: 100vw;
   height: 100vh;
   background-color: #CAFFD0;
-  font-family: 'Archivo', sans-serif;
-  font-weight: 400;
-  ;
+  font-family: 'Britanica-Bold';
 }
 
 // Homepage 
