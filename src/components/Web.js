@@ -6,7 +6,7 @@ export default function Web() {
     <div className="project-section">
       <div className="header">
         <h1 className="projects">PROJECTS</h1>
-        <button className="back-button" id="web-back"><Link to={'/'}><h1>✕</h1></Link></button>
+        <button className="back-button" id="web-back"><Link to={'/'}><h1 className="back-button">✕</h1></Link></button>
       </div>
       <div className="individual-project">
         <h2 className="project-title">Picster</h2>

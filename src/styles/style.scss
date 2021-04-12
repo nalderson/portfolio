@@ -27,15 +27,18 @@ body {
 
 .nat {
   line-height: 0.75;
-  font-size: 200px;
+  font-size: 170px;
   margin-bottom: 0px;
   margin-top: 0px;
+  font-family: Britanica;
 }
 
 .title-email {
-  font-size: 120px;
+  font-family: Britanica;
+  font-size:100px;
   line-height: 0.85;
   margin-top: 0;
+  margin-bottom: 75px;
 }
 
 .footer {
@@ -45,15 +48,15 @@ margin-bottom: 10px;
 }
 
 .web-design-dev {
-font-size: 30px;
+font-size: 20px;
 margin-right: 5px;
 }
 
 .peace {
-  width: 25px;
-  height: 37px;
-  margin-top: 29px;
-  margin-left: 5px;
+  width: 15px;
+  height: 21px;
+  margin-top: 23px;
+  margin-left: 3px;
 }
 
 // Nav - mobile first:
@@ -88,7 +91,7 @@ a:visited {
   border: none;
   background-color: #CAFFD0;
   margin-left: -10px;
-  padding-top: 10px;
+  padding-top: 650px;
   padding-bottom: 10px;
 }
 
@@ -103,7 +106,8 @@ border-bottom: black solid 2px;
 }
 
 .nav-text {
-  font-size: 40px;
+  font-size: 70px;
+  font-family: Britanica-Bold;
   margin: 0;
 }
 
@@ -111,20 +115,22 @@ border-bottom: black solid 2px;
 @media only screen and (min-width: 600px) {
   .navbar { 
     display: flex;
-    flex-flow: column wrap;
-    width: 100vw;
+    // flex-flow: column wrap;
+    width: 30vw;
     height: 100vh;
+    margin-left: 1040px;
 }
 
 .nav-div {
   display: flex;
   flex-direction: row;
-  width: inherit;
-  height: inherit;
+  width: 30vw;
+  height: 100vh;
+  position: fixed;
 }
 
 .nav-buttons {
-  width: 180px;
+  width: 140px;
   border: none;
   margin-top: -10px;
   height: 101%;
@@ -147,15 +153,12 @@ border-bottom: black solid 2px;
 a:link {
   width: 100%;
   height: 100%;
-  // font-size: 80px;
-  // padding-left: 100px;
 }
 
 .nav-text{
   transform: rotate(270deg);
   margin: 0;
 }
-
 }
 
 // About 
@@ -169,29 +172,45 @@ a:link {
 
 .about-me {
   width: 60vw;
+  display: flex;
+  flex-direction: row;
+}
+
+#about-back {
+  width: 130px;
+  height: 130px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#about-back-text {
+  margin-top: 14px;
+  margin-right: 0px;
+  margin-left: 160px;
 }
 
 .about-me-info {
-  font-size: 80px;
+  font-size: 58px;
   line-height: 0.90;
   margin-top: 25px;
 }
 
 .profile-pic {
-  width: 28vw;
+  width: 25vw;
   position: absolute;
-  margin-left: 650px;
-  margin-top: 180px;
+  margin-left: 550px;
+  margin-top: 170px;
   z-index: -2;
 }
 
 .about-email {
   display: flex;
   flex-direction: row;
-  width: 70vw;
+  width: 60vw;
   position: fixed;
-  bottom: 30px;
-  font-size: 80px;
+  bottom: 50px;
+  font-size: 58px;
 }
 
 .skills {
@@ -223,14 +242,21 @@ a:link {
 .back-button {
   border: none;
   font-size: 120px;
-  margin-left: 230px;
   background: none;
+  margin-top: 7px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+#web-back {
+  margin-left:342px;
 }
 
 .projects {
   font-size: 120px;
+  font-family: Britanica;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .individual-project {
@@ -240,6 +266,7 @@ a:link {
 
 .project-title {
   font-size: 80px;
+  font-family: Britanica;
   margin-top: 20px;
   margin-bottom: 0px;
 }
@@ -262,6 +289,7 @@ a:link {
   display: flex;
   flex-direction: column;
   font-size: 25px;
+  font-family: Britanica;
   margin-bottom: 0px;
   margin-top: 20px;
 }
@@ -279,6 +307,7 @@ a:link {
 
 #project-web-link {
   font-size: 25px;
+  font-family: Britanica;
 }
 
 #project-git-link {
@@ -290,5 +319,13 @@ a:link {
 }
 
 #samsung-title {
+  margin-bottom: 4px;
+}
+
+#ad-back {
+  margin-left: 230px;
+}
+
+#famous-five {
   margin-bottom: 4px;
 }

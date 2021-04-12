@@ -1,5 +1,5 @@
 import React from 'react'
-import { useHistory } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import amstel from '../images/Amstel.png'
 import halifax from '../images/Halifax.jpg'
 import sam from '../images/Samsung.png'
@@ -7,16 +7,11 @@ import google from '../images/Pixel.png'
 
 export default function Ads() {
 
-  const history = useHistory()
-  async function goBack() {
-    history.go(-1)
-  }
-
   return <section>
     <div className="project-section">
       <div className="header">
         <h1 className="projects">CAMPAIGNS</h1>
-        <button className="back-button" onClick={goBack}>✕</button>
+        <button className="back-button" id="ad-back"><Link to={'/'}><h1 className="back-button">✕</h1></Link></button>
       </div>
       <div className="individual-project">
         <h2 className="project-title">John Lewis Christmas</h2>
@@ -33,7 +28,7 @@ export default function Ads() {
       </div>
 
       <div className="individual-project">
-        <h2 className="project-title">Great Western Railway</h2>
+        <h2 className="project-title" id="famous-five">Great Western Railway</h2>
         <img className="project-img" src="../images/FamousF.png"/>
         <p className="project-description">Produced the main TVC and ITV Weather Idents for Great Western Railway’s new train launch.
         </p>
