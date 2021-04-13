@@ -51,7 +51,7 @@ export default function Ads() {
           <p>TV | Digital | Social | Print </p>
         </div>
         <div className="project-links">
-          <a id="project-web-link" href="https://www.youtube.com/watch?v=Vdf_XybtFjU">→Watch it here</a>
+          <a target="blank" id="project-web-link" href="https://www.youtube.com/watch?v=Vdf_XybtFjU">→Watch it here</a>
         </div>
       </div>
 
